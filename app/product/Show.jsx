@@ -103,7 +103,7 @@ const Show = ({ product, products }) => {
 
               <div className=" my-4 text-2xl font-bold">
                 {" "}
-                ${formatPrice(product.price)}{" "}
+                {formatPrice(product.price)}{" "}
               </div>
 
               {/* ==== QUANTITY SHOW  */}
